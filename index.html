@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vevekostky.cz – Váš obchod s LEGO dílky a sadami</title>
+  <meta name="description" content="vevekostky.cz je český online obchod s LEGO dílky, náhradními součástkami a originálními sadami. Najděte dílek, který vám chybí!">
+  <meta name="keywords" content="LEGO dílky, LEGO součástky, koupit LEGO, náhradní LEGO díly, vevekostky, LEGO eshop, LEGO obchod">
+  <meta name="author" content="vevekostky.cz">
+  <link rel="canonical" href="https://www.vevekostky.cz/index.html">
+
+  <!-- CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top shadow">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><span>veve</span>kostky<small style="font-size:.6em;color:#aaa;">.cz</small></a>
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link active" href="index.html"><i class="bi bi-house-door"></i> Domů</a></li>
+        <li class="nav-item"><a class="nav-link" href="katalog-dilku.html"><i class="bi bi-grid"></i> Katalog</a></li>
+        <li class="nav-item"><a class="nav-link" href="fotogalerie.html"><i class="bi bi-images"></i> Galerie</a></li>
+        <li class="nav-item"><a class="nav-link" href="o-nas.html"><i class="bi bi-people"></i> O nás</a></li>
+        <li class="nav-item"><a class="nav-link" href="kontakt.html"><i class="bi bi-envelope"></i> Kontakt</a></li>
+        <li class="nav-item ms-lg-3">
+          <a href="katalog-dilku.html" class="btn btn-yellow position-relative">
+            <i class="bi bi-cart3"></i> Košík
+            <span id="veve-cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" style="display:none;">0</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container position-relative">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <p class="text-uppercase" style="color:var(--veve-yellow);font-weight:700;letter-spacing:2px;font-size:.9rem;">✦ Největší výběr v ČR</p>
+        <h1>Nakupujte <span>LEGO dílky</span> jednoduše a rychle</h1>
+        <p class="lead mt-3 mb-4">Přes 50 000 různých LEGO dílků skladem. Náhradní součástky, sběratelské sady i vzácné kousky pro vaše MOC projekty.</p>
+        <a href="katalog-dilku.html" class="btn btn-veve btn-lg me-2"><i class="bi bi-grid-fill"></i> Prohlédnout katalog</a>
+        <a href="fotogalerie.html" class="btn btn-outline-light btn-lg">Inspirace <i class="bi bi-arrow-right"></i></a>
+      </div>
+      <div class="col-lg-6 text-center mt-4 mt-lg-0">
+        <img src="img/Dilky-lego.webp" alt="Ilustrace LEGO dílků" class="img-fluid rounded" style="max-height:340px;object-fit:contain;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BREADCRUMB -->
+<div class="container mt-3">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active">Domů</li>
+    </ol>
+  </nav>
+</div>
+
+<!-- VÝHODY -->
+<section class="container my-5">
+  <div class="row g-4 text-center">
+    <div class="col-sm-6 col-lg-3">
+      <div class="highlight-box h-100">
+        <div style="font-size:2.5rem;">🚚</div>
+        <h2 class="h5 mt-2 fw-bold">Doprava zdarma</h2>
+        <p class="text-muted small">Při nákupu nad 699 Kč posíláme poštou zdarma po celé ČR.</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <div class="highlight-box h-100">
+        <div style="font-size:2.5rem;">📦</div>
+        <h2 class="h5 mt-2 fw-bold">50 000+ dílků</h2>
+        <p class="text-muted small">Největší skladový výběr LEGO dílků a součástek v České republice.</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <div class="highlight-box h-100">
+        <div style="font-size:2.5rem;">🔒</div>
+        <h2 class="h5 mt-2 fw-bold">Bezpečná platba</h2>
+        <p class="text-muted small">Platba kartou, převodem nebo dobírkou. Vaše data jsou v bezpečí.</p>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <div class="highlight-box h-100">
+        <div style="font-size:2.5rem;">⭐</div>
+        <h2 class="h5 mt-2 fw-bold">Zákaznická podpora</h2>
+        <p class="text-muted small">Poradíme s výběrem dílků i s vaším MOC projektem každý den 9–17 h.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POPULÁRNÍ KATEGORIE -->
+<section class="container my-5">
+  <h2 class="section-title">Populární kategorie</h2>
+  <div class="row g-3">
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="katalog-dilku.html?cat=plates" class="text-decoration-none">
+        <div class="product-card text-center p-3">
+          <div style="font-size:3rem;">🟧</div>
+          <p class="fw-bold mt-2 mb-0" style="font-size:.9rem;">Desky (Plates)</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="katalog-dilku.html?cat=bricks" class="text-decoration-none">
+        <div class="product-card text-center p-3">
+          <div style="font-size:3rem;">🧱</div>
+          <p class="fw-bold mt-2 mb-0" style="font-size:.9rem;">Kostičky (Bricks)</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="katalog-dilku.html?cat=tiles" class="text-decoration-none">
+        <div class="product-card text-center p-3">
+          <div style="font-size:3rem;">🔲</div>
+          <p class="fw-bold mt-2 mb-0" style="font-size:.9rem;">Dlaždice (Tiles)</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="katalog-dilku.html?cat=technic" class="text-decoration-none">
+        <div class="product-card text-center p-3">
+          <div style="font-size:3rem;">⚙️</div>
+          <p class="fw-bold mt-2 mb-0" style="font-size:.9rem;">Technic</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="katalog-dilku.html?cat=minifigs" class="text-decoration-none">
+        <div class="product-card text-center p-3">
+          <div style="font-size:3rem;">🧍</div>
+          <p class="fw-bold mt-2 mb-0" style="font-size:.9rem;">Minifigurky</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="katalog-dilku.html?cat=special" class="text-decoration-none">
+        <div class="product-card text-center p-3">
+          <div style="font-size:3rem;">🔩</div>
+          <p class="fw-bold mt-2 mb-0" style="font-size:.9rem;">Speciální díly</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- AKČNÍ PRODUKTY -->
+<section class="container my-5">
+  <h2 class="section-title">Akční nabídka</h2>
+  <div class="row g-4">
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="product-card h-100">
+        <div class="card-img-placeholder">🟥</div>
+        <div class="p-3">
+          <span class="badge-cat">Bricks</span>
+          <h3 class="h6 mt-2">Brick 2×4 – červená (50 ks)</h3>
+          <p class="text-muted small">Základní stavební dílek. Ideální pro začátečníky i zkušené stavitele.</p>
+          <div class="d-flex align-items-center justify-content-between mt-auto">
+            <div><span class="price">49 Kč</span> <span class="price-old">65 Kč</span></div>
+            <button class="btn btn-veve btn-sm veve-add-to-cart">Do košíku</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="product-card h-100">
+        <div class="card-img-placeholder">🟦</div>
+        <div class="p-3">
+          <span class="badge-cat">Plates</span>
+          <h3 class="h6 mt-2">Plate 4×8 – modrá (10 ks)</h3>
+          <p class="text-muted small">Tenké desky pro základny a podlahy MOC projektů.</p>
+          <div class="d-flex align-items-center justify-content-between mt-auto">
+            <div><span class="price">39 Kč</span></div>
+            <button class="btn btn-veve btn-sm veve-add-to-cart">Do košíku</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="product-card h-100">
+        <div class="card-img-placeholder">⚙️</div>
+        <div class="p-3">
+          <span class="badge-cat">Technic</span>
+          <h3 class="h6 mt-2">Technic Beam 1×9 (5 ks)</h3>
+          <p class="text-muted small">Nosné technic nosníky pro mechanické stavby a roboty.</p>
+          <div class="d-flex align-items-center justify-content-between mt-auto">
+            <div><span class="price">59 Kč</span> <span class="price-old">79 Kč</span></div>
+            <button class="btn btn-veve btn-sm veve-add-to-cart">Do košíku</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="product-card h-100">
+        <div class="card-img-placeholder">🧍</div>
+        <div class="p-3">
+          <span class="badge-cat">Minifigurky</span>
+          <h3 class="h6 mt-2">Rytíř – série Classic Castle</h3>
+          <p class="text-muted small">Originální LEGO minifigurka z kolekce Classic Castle.</p>
+          <div class="d-flex align-items-center justify-content-between mt-auto">
+            <div><span class="price">129 Kč</span></div>
+            <button class="btn btn-veve btn-sm veve-add-to-cart">Do košíku</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="text-center mt-4">
+    <a href="katalog-dilku.html" class="btn btn-veve btn-lg">Zobrazit celý katalog <i class="bi bi-arrow-right"></i></a>
+  </div>
+</section>
+
+<!-- FOTOGALERIE PREVIEW -->
+<section class="container my-5">
+  <div class="d-flex justify-content-between align-items-end mb-3">
+    <h2 class="section-title mb-0">Inspirace ze světa LEGO</h2>
+    <a href="fotogalerie.html" class="btn btn-outline-secondary btn-sm">Celá galerie <i class="bi bi-arrow-right"></i></a>
+  </div>
+  <div class="row g-3">
+    <div class="col-6 col-md-3">
+      <img class="lazy img-fluid rounded" style="width:100%;height:200px;object-fit:cover;"
+           loading="lazy"
+           data-src="img/gallery/thumbs/medieval-castle.webp" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+           alt="LEGO hrad – MOC stavba">
+    </div>
+    <div class="col-6 col-md-3">
+      <img class="lazy img-fluid rounded" style="width:100%;height:200px;object-fit:cover;"
+           loading="lazy"
+           data-src="img/gallery/thumbs/cyberpunk-lego.webp" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+           alt="LEGO cyberpunk město">
+    </div>
+    <div class="col-6 col-md-3">
+      <img class="lazy img-fluid rounded" style="width:100%;height:200px;object-fit:cover;"
+           loading="lazy"
+           data-src="img/gallery/thumbs/scifi-bastion.webp" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+           alt="LEGO vesmírná stanice">
+    </div>
+    <div class="col-6 col-md-3">
+      <img class="lazy img-fluid rounded" style="width:100%;height:200px;object-fit:cover;"
+           loading="lazy"
+           data-src="img/gallery/thumbs/Garden-barn.webp" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+           alt="LEGO zahrada – podzimní MOC">
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="py-5" style="background:var(--veve-dark);">
+  <div class="container text-center text-white">
+    <h2 style="font-family:'Bebas Neue',sans-serif;font-size:2rem;letter-spacing:2px;">Novinky přímo do e-mailu</h2>
+    <p class="text-muted mb-3">Přihlaste se k odběru novinek a získejte slevu 10 % na první objednávku.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-5">
+        <div class="input-group">
+          <input type="email" class="form-control" placeholder="váš@email.cz">
+          <button class="btn btn-veve">Přihlásit se</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h3 class="h5">🧱 vevekostky.cz</h3>
+        <p class="small">Váš specializovaný obchod s LEGO dílky a součástkami. Stavíme vaše sny od roku 2018.</p>
+        <p class="small">Navštivte také naši <a href="fotogalerie.html">galerii inspirací</a> nebo si přečtěte <a href="o-nas.html">náš příběh</a>.</p>
+      </div>
+      <div class="col-md-2">
+        <h3 class="h5">Stránky</h3>
+        <ul class="list-unstyled small">
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="katalog-dilku.html">Katalog dílků</a></li>
+          <li><a href="fotogalerie.html">Fotogalerie</a></li>
+          <li><a href="o-nas.html">O nás</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h3 class="h5">Kategorie</h3>
+        <ul class="list-unstyled small">
+          <li><a href="katalog-dilku.html">Kostičky (Bricks)</a></li>
+          <li><a href="katalog-dilku.html">Desky (Plates)</a></li>
+          <li><a href="katalog-dilku.html">Technic díly</a></li>
+          <li><a href="katalog-dilku.html">Minifigurky</a></li>
+          <li><a href="katalog-dilku.html">Speciální díly</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h3 class="h5">Kontakt</h3>
+        <ul class="list-unstyled small">
+          <li><i class="bi bi-envelope me-1"></i> info@vevekostky.cz</li>
+          <li><i class="bi bi-telephone me-1"></i> +420 777 123 456</li>
+          <li><i class="bi bi-geo-alt me-1"></i> Náměstí Republiky 1, Praha</li>
+          <li class="mt-2"><a href="kontakt.html" class="btn btn-sm btn-yellow">Napsat zprávu</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 vevekostky.cz – Všechna práva vyhrazena | <a href="kontakt.html">Kontakt</a> | <a href="o-nas.html">O nás</a></p>
+      <p class="mt-1" style="font-size:.8rem;">LEGO® je ochranná známka skupiny LEGO. vevekostky.cz není součástí ani partnerem společnosti LEGO Group.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="veve-lightbox">
+  <span class="close-btn">&times;</span>
+  <img alt="Náhled obrázku">
+</div>
+
+<!-- JS -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/vevekostky.js"></script>
+
+</body>
+</html>
