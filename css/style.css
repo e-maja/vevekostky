@@ -2,8 +2,6 @@
    vevekostky.cz – Custom Styles
    =========================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&family=Bebas+Neue&display=swap');
-
 :root {
   --veve-red:    #e3000b;
   --veve-yellow: #f5c400;
